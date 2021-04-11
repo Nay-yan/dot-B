@@ -44,8 +44,8 @@
     position: absolute;
     height: 3px;
     width: 70%;
-    background: rgb(189, 189, 189);
-    border-radius: 9px;
+    background: rgb(161, 161, 161);
+    border-radius: 20px;
     opacity: 1;
     left: 0;
     -webkit-transform: rotate(0deg);
@@ -114,7 +114,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    position: absolute;
+}
+
+.overight-navbar-scroll {
+    width: 100%;
+    flex-direction: row;
+    position: fixed !important;
+    z-index: 2002;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(29, 29, 29, 0.25);
+}
+
+.overight-navbar-scroll .logo {
+    margin: 5px 0;
+}
+
+.overight-navbar-scroll .nav-text {
+    -webkit-text-stroke: 0.1px var(--green);
+    color: var(--green) !important;
+    font-family: 'Puritan', sans-serif;
+    font-size: 19px;
 }
 
 .one-section {
@@ -133,7 +153,6 @@
 .nav-text {
     -webkit-text-stroke: 0.1px var(--green);
     color: var(--yellow) !important;
-    font-weight: bold;
     font-family: 'Puritan', sans-serif;
     font-size: 19px;
 }
@@ -204,16 +223,26 @@
 
 /* ***************************************************************** */
 
+
+/* Phone  */
+
 @media(max-width:767px) {
     .overight-navbar {
         flex-direction: row;
         width: 100%;
         justify-content: space-between;
-        position: fixed;
+        position: absolute;
+        z-index: 2001;
+    }
+    .overight-navbar-scroll .nav-text {
+        font-weight: bold;
+        -webkit-text-stroke: 0.1px yellow;
+        color: #beb418 !important;
+        font-size: 15px;
     }
     .logo {
         width: 35px;
-        margin: 15px 0;
+        margin: 10px 0;
     }
     .ul-nav {
         background-color: #fff9d4;
@@ -221,14 +250,15 @@
     }
     .ul-nav li {
         margin: 5px 0;
-        border-bottom: 0.5px solid #b3b3b378;
+        border-bottom: 0.5px solid #ecec88;
     }
     .ul-nav li a {
         text-align: center;
     }
     .nav-text {
+        font-weight: bold;
         -webkit-text-stroke: 0.1px yellow;
-        color: #ccc000 !important;
+        color: #beb418 !important;
         font-size: 15px;
     }
     .one-section {
@@ -258,22 +288,29 @@
         flex-direction: row;
         width: 100%;
         justify-content: space-between;
-        position: fixed;
+        position: absolute;
+    }
+    .overight-navbar-scroll .nav-text {
+        font-weight: bold;
+        -webkit-text-stroke: 0.1px yellow;
+        color: #beb418 !important;
+        font-size: 15px;
     }
     .ul-nav {
         background-color: #fff9d4;
         border-radius: 5px;
     }
     .ul-nav li {
-        margin: 5px 0;
-        border-bottom: 0.5px solid #b3b3b378;
+        margin: 6px 0;
+        border-bottom: 0.5px solid #ecec88;
     }
     .ul-nav li a {
         text-align: center;
     }
     .nav-text {
+        font-weight: bold;
         -webkit-text-stroke: 0.1px yellow;
-        color: #ccc000 !important;
+        color: #beb418 !important;
         font-size: 19px;
     }
 }
