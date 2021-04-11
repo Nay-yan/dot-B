@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function() {
         $(this).toggleClass('open');
     });
@@ -18,5 +19,7 @@ $(document).ready(function() {
                 // $(".overight-navbar").css({ "position": "absolute", "background": "none", "box-shadow": "none" });
             }
         });
+
+    document.getElementById("year").innerHTML = new Date().getFullYear();
 
 });

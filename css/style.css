@@ -45,7 +45,7 @@
     position: absolute;
     height: 3px;
     width: 70%;
-    background: rgb(161, 161, 161);
+    background: #02232e;
     border-radius: 20px;
     opacity: 1;
     left: 0;
@@ -146,6 +146,13 @@
     font-size: 19px;
 }
 
+.overight-navbar-scroll .now {
+    -webkit-text-stroke: 0.1px var(--green);
+    color: var(--bigyellow) !important;
+    font-family: 'Puritan', sans-serif;
+    font-size: 19px;
+}
+
 .logo {
     width: 45px;
     margin: 20px 0;
@@ -160,6 +167,13 @@
 
 .ul-nav {
     background-color: none;
+}
+
+.now {
+    -webkit-text-stroke: 0.1px var(--green);
+    color: var(--green) !important;
+    font-family: 'Puritan', sans-serif;
+    font-size: 19px;
 }
 
 .bold-helder {
@@ -331,6 +345,12 @@
         color: #beb418 !important;
         font-size: 15px;
     }
+    .overight-navbar-scroll .now {
+        -webkit-text-stroke: 0.1px var(--smallyellow);
+        color: var(--green) !important;
+        font-family: 'Puritan', sans-serif;
+        font-size: 19px;
+    }
     .logo {
         width: 35px;
         margin: 10px 0;
@@ -351,6 +371,12 @@
         -webkit-text-stroke: 0.1px yellow;
         color: #beb418 !important;
         font-size: 15px;
+    }
+    .now {
+        -webkit-text-stroke: 0.1px var(--smallyellow);
+        color: var(--green) !important;
+        font-family: 'Puritan', sans-serif;
+        font-size: 19px;
     }
     .one-section {
         height: 50vh;
@@ -417,6 +443,12 @@
         color: #beb418 !important;
         font-size: 15px;
     }
+    .overight-navbar-scroll .now {
+        -webkit-text-stroke: 0.1px var(--smallyellow);
+        color: var(--green) !important;
+        font-family: 'Puritan', sans-serif;
+        font-size: 19px;
+    }
     .ul-nav {
         background-color: #fff9d4;
         border-radius: 5px;
@@ -432,6 +464,12 @@
         font-weight: bold;
         -webkit-text-stroke: 0.1px yellow;
         color: #beb418 !important;
+        font-size: 19px;
+    }
+    .now {
+        -webkit-text-stroke: 0.1px var(--smallyellow);
+        color: var(--green) !important;
+        font-family: 'Puritan', sans-serif;
         font-size: 19px;
     }
     .mobile-card {
