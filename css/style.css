@@ -13,6 +13,7 @@
 }
 
 :root {
+    --bigyellow: #FFB803;
     --yellow: #FFF022;
     --green: #115851;
     --smallyellow: #FFFCEB;
@@ -110,6 +111,14 @@
 
 /* one-section  */
 
+.one-section {
+    background-image: url('../img/one-bg.jpg');
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .overight-navbar {
     flex-direction: column;
     align-items: center;
@@ -135,14 +144,6 @@
     color: var(--green) !important;
     font-family: 'Puritan', sans-serif;
     font-size: 19px;
-}
-
-.one-section {
-    background-image: url('../img/one-bg.jpg');
-    height: 65vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .logo {
@@ -187,12 +188,8 @@
     letter-spacing: 8px;
 }
 
-.section-card {
-    height: 35vh;
-}
-
 .mobile-card {
-    margin-top: 20px;
+    margin: 40px 0;
     width: 100%;
     background: var(--smallyellow);
     display: flex;
@@ -217,6 +214,100 @@
     font-size: 20px;
     margin-bottom: 20px;
     color: #ffc123;
+    font-family: 'Puritan', sans-serif;
+}
+
+
+/* two section  */
+
+.article-bg {
+    background-color: var(--smallyellow);
+}
+
+.twosection-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 4px;
+    color: var(--bigyellow);
+    font-family: 'Puritan', sans-serif;
+    -webkit-text-stroke: 0.1px gray;
+}
+
+.card {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
+}
+
+.card-img {
+    width: 100%;
+}
+
+.one-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.card-title {
+    display: inline-block;
+    color: var(--bigyellow);
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: 'Puritan', sans-serif;
+    -webkit-text-stroke: 0.1px gray;
+}
+
+.card-about {
+    margin: 0;
+    font-size: 19px;
+    color: rgba(17, 88, 81, 0.66);
+    font-family: 'Puritan', sans-serif;
+}
+
+.c4-izmir {
+    border-radius: 8px 8px 0 0;
+    background-color: #12d1faf5;
+}
+
+
+/* footer  */
+
+.footer {
+    background-color: #FFFFFB;
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cartoon-png {
+    width: 50px;
+}
+
+.social {
+    width: 40px;
+}
+
+.version {
+    color: gray;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Puritan', sans-serif;
+}
+
+.footer-line {
+    margin: 15px 0;
+    width: 100%;
+}
+
+.footer-copy {
+    color: #1158518a;
+    letter-spacing: 3px;
     font-family: 'Puritan', sans-serif;
 }
 
@@ -275,6 +366,36 @@
         font-size: 15px;
         letter-spacing: 5px;
     }
+    .mobile-card {
+        margin: 10px 0;
+    }
+    /* two section  */
+    .one-icon {
+        width: 30px;
+        margin-right: 10px;
+    }
+    .card-title {
+        font-size: 19px;
+        letter-spacing: 2px;
+    }
+    .card-about {
+        font-size: 15px;
+    }
+    /* footer  */
+    .cartoon-png {
+        width: 45px;
+    }
+    .social {
+        width: 35px;
+    }
+    .version {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+    .footer-copy {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
 }
 
 
@@ -313,7 +434,28 @@
         color: #beb418 !important;
         font-size: 19px;
     }
+    .mobile-card {
+        margin: 20px 0;
+    }
+    /* two section  */
+    .one-icon {
+        width: 30px;
+        margin-right: 10px;
+    }
+    .card-title {
+        font-size: 19px;
+        letter-spacing: 2px;
+    }
+    .card-about {
+        font-size: 16px;
+    }
 }
+
+
+/* *************************************************************************** */
+
+
+/* laptop  */
 
 @media(min-width:992px) and (max-width:1199px) {
     .one-section {
@@ -321,5 +463,17 @@
     }
     .bold-helder {
         height: 50vh;
+    }
+    /* two section  */
+    .one-icon {
+        width: 30px;
+        margin-right: 10px;
+    }
+    .card-title {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .card-about {
+        font-size: 19px;
     }
 }
