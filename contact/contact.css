@@ -113,16 +113,10 @@
 /* nav   */
 
 .section-one {
-    background-image: url('./img/abput\ bg.jpg');
-    background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     height: 100vh;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .logo {
@@ -133,6 +127,7 @@
     width: 100%;
     box-shadow: 0px 4px 4px rgba(29, 29, 29, 0.25);
     position: fixed;
+    z-index: 2002;
     top: 0;
 }
 
@@ -150,42 +145,32 @@
     font-size: 19px;
 }
 
-.about {
-    background-color: rgba(235, 248, 255, 0.94);
-    margin: 0 90px;
-    border-radius: 10px;
+.contact-bg {
+    background-image: url('./img/contact\ bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.ico {
+    height: 100vh;
+    background-color: #05142B;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icon-section {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.my-photo {
-    width: 15%;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
-.letter-icon {
-    width: 40px;
-}
-
-.about-letter {
-    font-size: 23px;
-    color: var(--green);
-    display: inline-block;
-    text-align: center;
-    padding: 0 40px;
-    line-height: 40px;
-}
-
-.version {
-    font-family: 'Puritan', sans-serif;
-    color: gray;
-    letter-spacing: 2px;
-    font-size: 17px;
-    padding-bottom: 40px;
-    margin: 0;
+.social {
+    width: 35%;
+    margin: 20px 0;
 }
 
 
@@ -214,27 +199,21 @@
     .ul-nav li a {
         text-align: center;
     }
-    .about {
-        margin: 0 15px;
-        border-radius: 10px;
+    .contact-bg {
+        height: 80vh;
     }
-    .my-photo {
-        width: 30%;
-        margin-top: 30px;
-        margin-bottom: 10px;
+    .ico {
+        height: 20vh;
+        align-items: flex-start;
     }
-    .letter-icon {
-        width: 30px;
+    .icon-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-    .about-letter {
-        font-size: 14px;
-        padding: 0 20px;
-        line-height: 25px;
-    }
-    .version {
-        margin: 0;
-        font-size: 10px;
-        padding-bottom: 30px;
+    .social {
+        width: 50%;
     }
 }
 
@@ -266,27 +245,39 @@
     .ul-nav li a {
         text-align: center;
     }
-    .about {
-        margin: 0 15px;
-        border-radius: 10px;
-        margin-bottom: 20px;
+    .contact-bg {
+        height: 60vh;
     }
-    .my-photo {
-        width: 22%;
-        margin-top: 35px;
-        margin-bottom: 15px;
+    .ico {
+        height: 40vh;
+        align-items: center;
     }
-    .letter-icon {
-        width: 35px;
+    .icon-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
-    .about-letter {
-        font-size: 19px;
-        padding: 0px 20px;
-        line-height: 29px;
+    .social {
+        width: 44%;
     }
-    .version {
-        margin: 0;
-        font-size: 12px;
-        padding-bottom: 35px;
+}
+
+@media (min-width:992px)and (max-width:1199px) {
+    .contact-bg {
+        height: 60vh;
+    }
+    .ico {
+        height: 40vh;
+        align-items: center;
+    }
+    .icon-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .social {
+        width: 44%;
     }
 }
