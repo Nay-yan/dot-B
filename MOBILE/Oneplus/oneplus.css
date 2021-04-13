@@ -120,6 +120,21 @@ body {
     font-size: 22px;
 }
 
+.arrow-hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+.arrow-hover:hover {
+    background-color: rgba(185, 185, 185, 0.274);
+    border: 1px solid rgba(128, 128, 128, 0.596);
+    border-radius: 5px;
+    padding: 5px 8px;
+    transition: 0.1s;
+}
+
 .samsung-icon {
     width: 43px;
 }
@@ -227,6 +242,10 @@ body {
 
 .link-icon {
     width: 33px;
+}
+
+.over {
+    overflow-y: scroll;
 }
 
 
