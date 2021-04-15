@@ -3,4 +3,5 @@ $(document).ready(function() {
         $(this).toggleClass('open');
     });
     document.getElementById("year").innerHTML = new Date().getFullYear();
+    $('.counter').counterUp();
 });
