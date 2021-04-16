@@ -21,10 +21,7 @@ $(document).ready(function() {
     document.getElementById("year").innerHTML = new Date().getFullYear();
 
     new WOW().init();
-    $('.counter').counterUp({
-        delay: 10,
-        time: 500
-    });
+    $('.counter').counterUp();
 
 
 });
