@@ -379,6 +379,10 @@ body {
     .ul-nav li a {
         text-align: center;
     }
+    .know-icon {
+        width: 60px;
+        margin: auto;
+    }
 }
 
 @media(min-width:992px) and (max-width:1199px) {}

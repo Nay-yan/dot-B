@@ -12,11 +12,9 @@ $(document).ready(function() {
             let currentPosition = $(this).scrollTop();
             console.log(currentPosition);
             if (currentPosition >= screenHeight - 300) {
-                // $(".overight-navbar").css({ "position": "fixed", "background": "var(--smallyellow)", "box-shadow": "0px 4px 4px rgba(0, 0, 0, 0.25)" });
                 $(".overight-navbar").addClass("overight-navbar-scroll");
             } else {
                 $(".overight-navbar").removeClass("overight-navbar-scroll");
-                // $(".overight-navbar").css({ "position": "absolute", "background": "none", "box-shadow": "none" });
             }
         });
 
@@ -25,7 +23,7 @@ $(document).ready(function() {
     new WOW().init();
     $('.counter').counterUp({
         delay: 10,
-        time: 1000
+        time: 500
     });
 
 

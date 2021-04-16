@@ -149,7 +149,7 @@ body {
 }
 
 .title-section {
-    margin: 30px 0;
+    margin: 28px 0 15px 0;
 }
 
 .title {
@@ -174,8 +174,9 @@ body {
 }
 
 .card-title {
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 17px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
     font-weight: bold;
     color: var(--bigyellow);
     font-family: 'Puritan', sans-serif;
@@ -192,7 +193,7 @@ body {
     align-items: center;
 }
 
-.hein {
+.wai {
     width: 10%;
 }
 
@@ -296,7 +297,7 @@ body {
     .card-text {
         font-size: 14px;
     }
-    .hein {
+    .wai {
         width: 8%;
     }
     .crd-name {
@@ -312,7 +313,7 @@ body {
     .card-text {
         font-size: 14px;
     }
-    .hein {
+    .wai {
         width: 8%;
     }
     .crd-name {
@@ -362,7 +363,7 @@ body {
         text-align: center;
     }
     .title-section {
-        margin: 30px 0 10px 0;
+        margin: 19px 0 5px 0;
     }
     .one-card {
         width: 40%;
@@ -381,7 +382,7 @@ body {
     .card-text {
         font-size: 18px;
     }
-    .hein {
+    .wai {
         width: 11%;
     }
     .crd-name {
