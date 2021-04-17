@@ -3,4 +3,11 @@ $(document).ready(function() {
         $(this).toggleClass('open');
     });
     document.getElementById("year").innerHTML = new Date().getFullYear();
+
+    $("#search").on("keyup", function() {
+        let keyword = $(this).val().toLowerCase();
+        $(".item").filter(function() {
+            $(this).toggle($(this).text().toLowerCase().indexOf(keyword) > -1);
+        })
+    });
 });
