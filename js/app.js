@@ -5,12 +5,11 @@ $(document).ready(function() {
     });
 
     let screenHeight = $(window).height();
-    console.log(screenHeight);
 
     $(window).scroll(
         function() {
             let currentPosition = $(this).scrollTop();
-            console.log(currentPosition);
+
             if (currentPosition >= screenHeight - 300) {
                 $(".overight-navbar").addClass("overight-navbar-scroll");
             } else {
