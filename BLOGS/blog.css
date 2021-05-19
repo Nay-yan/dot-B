@@ -125,6 +125,11 @@ body {
     color: var(--green) !important;
     font-family: 'Puritan', sans-serif;
     font-size: 18px;
+    transition: 0.2s;
+}
+
+.nav-text:hover {
+    color: var(--bigyellow) !important; 
 }
 
 .overight-navbar {
@@ -270,6 +275,10 @@ body {
         color: var(--bigyellow) !important;
         font-size: 15px;
     }
+    .nav-text:hover {
+        color: var(--green) !important; 
+    }
+
     .ul-nav {
         background-color: #fff9d4;
         border-radius: 5px;
@@ -351,6 +360,10 @@ body {
         color: var(--bigyellow) !important;
         font-size: 18px;
     }
+    .nav-text:hover {
+        color: var(--green) !important; 
+    }
+
     .ul-nav {
         background-color: #fff9d4;
         border-radius: 5px;

@@ -141,6 +141,10 @@
     color: var(--green) !important;
     font-family: 'Puritan', sans-serif;
     font-size: 19px;
+    transition:  0.2s;
+}
+.nav-text:hover {
+    color: var(--bigyellow) !important;
 }
 
 .now {
@@ -199,6 +203,10 @@
         color: var(--bigyellow) !important;
         font-size: 15px;
     }
+    .nav-text:hover {
+        -webkit-text-stroke: 0.1px var(--green);
+        color: var(--green) !important;
+    }
     .now {
         color: var(--green) !important;
         font-size: 15px;
@@ -250,6 +258,10 @@
         color: var(--bigyellow) !important;
         font-family: 'Puritan', sans-serif;
         font-size: 19px;
+    }
+    .nav-text:hover {
+        -webkit-text-stroke: 0.1px var(--green);
+        color: var(--green) !important;
     }
     .now {
         color: var(--green) !important;

@@ -145,6 +145,11 @@
     color: var(--green) !important;
     font-family: 'Puritan', sans-serif;
     font-size: 19px;
+    transition: 0.2s;
+}
+
+.overight-navbar-scroll .nav-text:hover {
+    color: var(--bigyellow) !important;
 }
 
 .overight-navbar-scroll .now {
@@ -164,6 +169,12 @@
     color: var(--yellow) !important;
     font-family: 'Puritan', sans-serif;
     font-size: 19px;
+    transition: 0.3s;
+}
+
+.nav-text:hover {
+    -webkit-text-stroke: 0.1px var(--green);
+    color: var(--green) !important;
 }
 
 .ul-nav {
@@ -373,6 +384,9 @@
         color: #beb418 !important;
         font-size: 15px;
     }
+    .nav-text:hover {
+        color: var(--green) !important;
+    }
     .now {
         -webkit-text-stroke: 0.1px var(--smallyellow);
         color: var(--green) !important;
@@ -466,6 +480,9 @@
         -webkit-text-stroke: 0.1px yellow;
         color: #beb418 !important;
         font-size: 19px;
+    }
+    .nav-text:hover {
+        color: var(--green) !important;
     }
     .now {
         -webkit-text-stroke: 0.1px var(--smallyellow);
