@@ -26,6 +26,7 @@
     <meta property="twitter:image" content="https://i.postimg.cc/rwQsgvqp/maeta.jpg">
 
     <link rel="stylesheet" href="../vendor/bootstrap-4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="../vendor/feather-icons-web/feather.css">
     <link rel="stylesheet" href="../vendor/Izmir-master/izmir.css">
     <link rel="stylesheet" href="../vendor/animate_it/animate.css">
@@ -34,217 +35,221 @@
 
 <body>
 
-    <div class="nav-section">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white overight-navbar">
-            <img src="./img/icon.png" class="nav-icon">
-            <button class="navbar-toggler border-0 button pr-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <div id="nav-icon3">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <div class="screen-body">
+
+        <div class="scrollTop" id="scrollTop" onclick="topFunction()">
+            <i class="feather-chevron-up h4 arrow"></i>
+        </div>
+
+
+        <div class="nav-section">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white overight-navbar" id="scroll">
+                <img src="./img/icon.png" class="nav-icon">
+                <button class="navbar-toggler border-0 button pr-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div id="nav-icon3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ul-nav">
+                        <li class="nav-item">
+                            <a class="nav-link nav-text" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-text" href="../about/about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-text" href="../contact/contact.html">CONTACT</a>
+                        </li>
+                    </ul>
                 </div>
-            </button>
-
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav ul-nav">
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="../index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="../about/about.html">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-text" href="../contact/contact.html">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-    <div class="container">
-        <img src="./img/profile.png" class="profile-img">
-
-        <div class="title-section">
-            <p class="title">Knowledge Share</p>
+            </nav>
         </div>
 
+        <div class="container">
+            <img src="./img/profile.png" class="profile-img">
 
-        <div class="card-section">
-
-            <div class="one-card wow animate__animated animate__fadeInLeft">
-                <a href="./S-Post/vpn.html" class=" text-decoration-none">
-                    <div class="card border-0 shadow">
-                        <div class="img-secion">
-                            <figure class="c4-izmir c4-border-center c4-image-blur">
-                                <img src="./img/post/vpn/vpn.png" class="card-img-top ">
-                                <figcaption>
-                                    <div class="c4-reveal-down">
-                                        <h3>
-                                            Click Here
-                                        </h3>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-
-                        <div class="card-body ">
-                            <h5 class="card-title ">Nord VPN (Android / IOS)</h5>
-                            <p class="card-text ">Vpn တော်တော်များများထဲမှာမှ Android ရော IOS အတွက်ပါအဆင်ပြေတဲ့ ....</p>
-                            <div class="footer-card">
-                                <img src="./img/hein.png" class="hein mr-2">
-                                <p class="crd-name mr-3">Hein Min oo</p>
-                                <p class="dec-date m-0">April 15, 2021</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+            <div class="title-section">
+                <p class="title">Knowledge Share</p>
             </div>
 
-            <div class="one-card wow animate__animated animate__fadeInLeft">
-                <a href="./S-Post/mi_google.html" class=" text-decoration-none">
-                    <div class="card border-0 shadow">
-                        <div class="img-secion">
-                            <figure class="c4-izmir c4-border-center c4-image-blur">
-                                <img src="./img/post/mi google/google.png" class="card-img-top ">
-                                <figcaption>
-                                    <div class="c4-reveal-down">
-                                        <h3>
-                                            Click Here
-                                        </h3>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="card-body ">
-                            <h5 class="card-title ">Xiaomi Google Installer</h5>
-                            <p class="card-text ">Xiaomi ဖုန်းတော်တော်များများအတွက် အဆင်ပြေတဲ့ TTA Gapp Software ဟာဆိုရင် ....</p>
-                            <div class="footer-card">
-                                <img src="./img/hein.png" class="hein mr-2">
-                                <p class="crd-name mr-3">Hein Min oo</p>
-                                <p class="dec-date m-0">April 15, 2021</p>
+            <div class="card-section">
+
+                <div class="one-card wow animate__animated animate__fadeInLeft">
+                    <a href="./S-Post/vpn.html" class=" text-decoration-none">
+                        <div class="card border-0 shadow">
+                            <div class="img-secion">
+                                <figure class="c4-izmir c4-border-center c4-image-blur">
+                                    <img src="./img/post/vpn/vpn.png" class="card-img-top ">
+                                    <figcaption>
+                                        <div class="c4-reveal-down">
+                                            <h3>
+                                                Click Here
+                                            </h3>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="card-body ">
+                                <h5 class="card-title ">Nord VPN (Android / IOS)</h5>
+                                <p class="card-text ">Vpn တော်တော်များများထဲမှာမှ Android ရော IOS အတွက်ပါအဆင်ပြေတဲ့ ....</p>
+                                <div class="footer-card">
+                                    <img src="./img/hein.png" class="hein mr-2">
+                                    <p class="crd-name mr-3">Hein Min oo</p>
+                                    <p class="dec-date m-0">April 15, 2021</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="one-card wow animate__animated animate__fadeInLeft">
-                <a href="./S-Post/vpn_security.html" class=" text-decoration-none">
-                    <div class="card border-0 shadow">
-                        <div class="img-secion">
-                            <figure class="c4-izmir c4-border-center c4-image-blur">
-                                <img src="./img/post/vpn security illustrator.png" class="card-img-top ">
-                                <figcaption>
-                                    <div class="c4-reveal-down">
-                                        <h3>
-                                            Click Here
-                                        </h3>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="card-body ">
-                            <h5 class="card-title">VPN Security</h5>
-                            <p class="card-text ">ကိုသုံးနေတဲ့ VPN Software က လုံခြုံစိတ်ချမှုရှိရဲ့လား?</p>
-                            <div class="footer-card">
-                                <img src="./img/wai.png" class="hein mr-2">
-                                <p class="crd-name mr-3">Ko Ko Wai Yan</p>
-                                <p class="dec-date m-0">April 16, 2021</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="one-card wow animate__animated animate__fadeInLeft">
-                <a href="./S-Post/all_vpn.html" class=" text-decoration-none">
-                    <div class="card border-0 shadow">
-                        <div class="img-secion">
-                            <figure class="c4-izmir c4-border-center c4-image-blur">
-                                <img src="./img/all-vpn.png" class="card-img-top ">
-                                <figcaption>
-                                    <div class="c4-reveal-down">
-                                        <h3>
-                                            Click Here
-                                        </h3>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="card-body ">
-                            <h5 class="card-title">All Android VPN (MOD)</h5>
-                            <p class="card-text ">VPN Apk အားလုံးသည် များသောအားဖြင့် MOD Version ဖြစ်သည် ....</p>
-                            <div class="footer-card">
-                                <img src="./img/wai.png" class="hein mr-2">
-                                <p class="crd-name mr-3">Ko Ko Wai Yan</p>
-                                <p class="dec-date m-0">May 7, 2021</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="one-card wow animate__animated animate__fadeInLeft">
-                <a href="./S-Post/bug.html" class=" text-decoration-none">
-                    <div class="card border-0 shadow">
-                        <div class="img-secion">
-                            <figure class="c4-izmir c4-border-center c4-image-blur">
-                                <img src="./img/what is bug.png" class="card-img-top ">
-                                <figcaption>
-                                    <div class="c4-reveal-down">
-                                        <h3>
-                                            Click Here
-                                        </h3>
-                                    </div>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="card-body ">
-                            <h5 class="card-title">Software Bug ဆိုတာဘာလဲ?</h5>
-                            <p class="card-text ">Software Bug ဆိုတာ Software စနစ်တစ်ခု ရဲ့အမှား သို့မဟုတ် ....</p>
-                            <div class="footer-card">
-                                <img src="./img/wai.png" class="hein mr-2">
-                                <p class="crd-name mr-3">Ko Ko Wai Yan</p>
-                                <p class="dec-date m-0">May 29, 2021</p>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-
-
-        </div>
-
-    </div>
-
-
-
-    <!-- footer  -->
-    <div class="footer mt-4 ">
-        <div class="container pt-4 ">
-            <div class="footer-div ">
-                <img src="./img//footer/cartoon.png " class="cartoon-png ">
-                <div class="d-flex mt-2 ">
-                    <a href="https://www.facebook.com/kokowaiyan404 ">
-                        <img src="./img/footer/icons8-facebook-144.png " class="social m-2 ">
-                    </a>
-                    <a href="mailto:aa8184792@gmail.com ">
-                        <img src="./img/footer/icons8-gmail-144.png " class="social m-2 ">
-                    </a>
-                    <a href="https://telegram.me/@kkwaiyan ">
-                        <img src="./img/footer/icons8-telegram-app-144.png " class="social m-2 ">
                     </a>
                 </div>
-                <p class="version ">Version 2.0</p>
-                <hr class="footer-line ">
-                <p class="footer-copy ">Copyright© <span id="year"></span> Wai Yan. All rights reserved</p>
+
+                <div class="one-card wow animate__animated animate__fadeInLeft">
+                    <a href="./S-Post/mi_google.html" class=" text-decoration-none">
+                        <div class="card border-0 shadow">
+                            <div class="img-secion">
+                                <figure class="c4-izmir c4-border-center c4-image-blur">
+                                    <img src="./img/post/mi google/google.png" class="card-img-top ">
+                                    <figcaption>
+                                        <div class="c4-reveal-down">
+                                            <h3>
+                                                Click Here
+                                            </h3>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="card-body ">
+                                <h5 class="card-title ">Xiaomi Google Installer</h5>
+                                <p class="card-text ">Xiaomi ဖုန်းတော်တော်များများအတွက် အဆင်ပြေတဲ့ TTA Gapp Software ဟာဆိုရင် ....</p>
+                                <div class="footer-card">
+                                    <img src="./img/hein.png" class="hein mr-2">
+                                    <p class="crd-name mr-3">Hein Min oo</p>
+                                    <p class="dec-date m-0">April 15, 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="one-card wow animate__animated animate__fadeInLeft">
+                    <a href="./S-Post/vpn_security.html" class=" text-decoration-none">
+                        <div class="card border-0 shadow">
+                            <div class="img-secion">
+                                <figure class="c4-izmir c4-border-center c4-image-blur">
+                                    <img src="./img/post/vpn security illustrator.png" class="card-img-top ">
+                                    <figcaption>
+                                        <div class="c4-reveal-down">
+                                            <h3>
+                                                Click Here
+                                            </h3>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="card-body ">
+                                <h5 class="card-title">VPN Security</h5>
+                                <p class="card-text ">ကိုသုံးနေတဲ့ VPN Software က လုံခြုံစိတ်ချမှုရှိရဲ့လား?</p>
+                                <div class="footer-card">
+                                    <img src="./img/wai.png" class="hein mr-2">
+                                    <p class="crd-name mr-3">Ko Ko Wai Yan</p>
+                                    <p class="dec-date m-0">April 16, 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="one-card wow animate__animated animate__fadeInLeft">
+                    <a href="./S-Post/all_vpn.html" class=" text-decoration-none">
+                        <div class="card border-0 shadow">
+                            <div class="img-secion">
+                                <figure class="c4-izmir c4-border-center c4-image-blur">
+                                    <img src="./img/all-vpn.png" class="card-img-top ">
+                                    <figcaption>
+                                        <div class="c4-reveal-down">
+                                            <h3>
+                                                Click Here
+                                            </h3>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="card-body ">
+                                <h5 class="card-title">All Android VPN (MOD)</h5>
+                                <p class="card-text ">VPN Apk အားလုံးသည် များသောအားဖြင့် MOD Version ဖြစ်သည် ....</p>
+                                <div class="footer-card">
+                                    <img src="./img/wai.png" class="hein mr-2">
+                                    <p class="crd-name mr-3">Ko Ko Wai Yan</p>
+                                    <p class="dec-date m-0">May 7, 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="one-card wow animate__animated animate__fadeInLeft">
+                    <a href="./S-Post/bug.html" class=" text-decoration-none">
+                        <div class="card border-0 shadow">
+                            <div class="img-secion">
+                                <figure class="c4-izmir c4-border-center c4-image-blur">
+                                    <img src="./img/what is bug.png" class="card-img-top ">
+                                    <figcaption>
+                                        <div class="c4-reveal-down">
+                                            <h3>
+                                                Click Here
+                                            </h3>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="card-body ">
+                                <h5 class="card-title">Software Bug ဆိုတာဘာလဲ?</h5>
+                                <p class="card-text ">Software Bug ဆိုတာ Software စနစ်တစ်ခု ရဲ့အမှား သို့မဟုတ် ....</p>
+                                <div class="footer-card">
+                                    <img src="./img/wai.png" class="hein mr-2">
+                                    <p class="crd-name mr-3">Ko Ko Wai Yan</p>
+                                    <p class="dec-date m-0">May 29, 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- footer  -->
+        <div class="footer mt-4 ">
+            <div class="container pt-4 ">
+                <div class="footer-div ">
+                    <img src="./img//footer/cartoon.png " class="cartoon-png ">
+                    <div class="d-flex mt-2 ">
+                        <a href="https://www.facebook.com/kokowaiyan404 ">
+                            <img src="./img/footer/icons8-facebook-144.png " class="social m-2 ">
+                        </a>
+                        <a href="mailto:aa8184792@gmail.com ">
+                            <img src="./img/footer/icons8-gmail-144.png " class="social m-2 ">
+                        </a>
+                        <a href="https://telegram.me/@kkwaiyan ">
+                            <img src="./img/footer/icons8-telegram-app-144.png " class="social m-2 ">
+                        </a>
+                    </div>
+                    <p class="version ">Version 2.0</p>
+                    <hr class="footer-line ">
+                    <p class="footer-copy ">Copyright© <span id="year"></span> Wai Yan. All rights reserved</p>
+                </div>
             </div>
         </div>
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "></script>
+    <script src="../vendor/jquery-3.6.0.min.js"></script>
     <!-- <script src="../vendor/popper/popper.min.js - Shortcut.lnk "></script> -->
     <script src="../vendor/bootstrap-4.6.0/js/bootstrap.bundle.min.js "></script>
     <script src="../vendor/wow/wow.js"></script>
