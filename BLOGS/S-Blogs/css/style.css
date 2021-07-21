@@ -24,6 +24,24 @@ body {
     --smallyellow: #FFFCEB;
 }
 
+.btn-facebook {
+    color: #fff;
+    background-color: #4C67A1;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn-facebook:hover {
+    color: #fff;
+    background-color: #405D9B;
+}
+
+.btn-facebook:focus {
+    color: #fff;
+    box-shadow: none;
+}
+
 .scrollTop {
     display: none;
     position: fixed;
@@ -321,6 +339,10 @@ body {
         width: 45px;
         margin: auto;
     }
+    .btn-facebook {
+        margin-top: 5px;
+        font-size: 14px;
+    }
     /* footer  */
     .cartoon-png {
         width: 45px;
@@ -409,6 +431,10 @@ body {
     .know-icon {
         width: 60px;
         margin: auto;
+    }
+    .btn-facebook {
+        margin-top: 5px;
+        font-size: 15px;
     }
 }
 
