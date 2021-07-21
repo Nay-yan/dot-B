@@ -11,7 +11,7 @@ $(document).ready(function() {
         let scrollHeight = $(this).scrollTop();
         // console.log(scrollHeight);
 
-        if (scrollHeight >= screenHeight - 600) {
+        if (scrollHeight >= screenHeight - 500) {
             $('.navbar-light').addClass("scrollNav-none");
         } else {
             $('.navbar-light').removeClass("scrollNav-none");
