@@ -24,6 +24,23 @@ body {
     --smallyellow: #FFFCEB;
 }
 
+.scrollTop {
+    display: none;
+    position: fixed;
+    padding-top: 8px;
+    bottom: 7%;
+    right: 2%;
+    width: 45px;
+    height: 45px;
+    background-color: #fdf7a7ad;
+    border: 2px solid #fdf367;
+    z-index: 2005;
+    border-radius: 15%;
+    margin: auto;
+    text-align: center;
+    color: #FFB803;
+}
+
 #nav-icon1,
 #nav-icon2,
 #nav-icon3,
@@ -113,13 +130,9 @@ body {
 
 /* ****************nav end********************** */
 
-
-/* nav  */
-
-
-/* .nav-icon {
-    width: 40px;
-} */
+.scrollNav-none {
+    display: none;
+}
 
 .arrow {
     font-size: 22px;
@@ -153,7 +166,7 @@ body {
 }
 
 .nav-text:hover {
-    color: var(--bigyellow) !important; 
+    color: var(--bigyellow) !important;
 }
 
 .overight-navbar {
@@ -286,15 +299,23 @@ body {
 /* phone  */
 
 @media (max-width:767px) {
+    .scrollTop {
+        background-color: #fdf7a7db;
+        border: 2px solid #fdf367;
+        padding-top: 2px;
+        bottom: 4%;
+        right: 2%;
+        width: 35px;
+        height: 35px;
+        border-radius: 20%;
+    }
     .nav-text {
         color: var(--bigyellow) !important;
         font-size: 15px;
     }
-
     .nav-text:hover {
-        color: var(--green) !important; 
+        color: var(--green) !important;
     }
-
     .ul-nav {
         background-color: #fff9d4;
         border-radius: 5px;
@@ -374,15 +395,23 @@ body {
 /* taplat  */
 
 @media(min-width:768px) and (max-width:991px) {
+    .scrollTop {
+        background-color: #fdf7a7db;
+        border: 2px solid #fdf367;
+        padding-top: 7px;
+        bottom: 4%;
+        right: 2%;
+        width: 45px;
+        height: 45px;
+        border-radius: 20%;
+    }
     .nav-text {
         color: var(--bigyellow) !important;
         font-size: 18px;
     }
-
     .nav-text:hover {
-        color: var(--green) !important; 
+        color: var(--green) !important;
     }
-
     .ul-nav {
         background-color: #fff9d4;
         border-radius: 5px;
