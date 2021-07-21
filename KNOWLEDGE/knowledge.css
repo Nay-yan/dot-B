@@ -25,6 +25,7 @@ body {
 }
 
 .scrollTop {
+    display: none;
     position: fixed;
     padding-top: 8px;
     bottom: 7%;
